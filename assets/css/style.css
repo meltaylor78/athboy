@@ -24,7 +24,8 @@ p {
     position: absolute;
     top: 10px;
     color: orange;
-    border-bottom: 1px solid;
+    font-weight: 700;
+    border-bottom: 2px solid;
 }
 /* -_-_-_-_-_-_-_-_-_-_ Nav Links _-_-_-_-_-_-_-_-_-_- */
 .links{
@@ -81,6 +82,7 @@ p {
 }
 .left-footer-col h5{
     font-size: 15px;
+    padding-left: 10px;
 }
 .right-footer-col{
     padding-top: 10px;
@@ -90,7 +92,9 @@ p {
 .right-footer-col h5{
     font-size: 10px;
 }
-
+.footer ul:before{
+    margin-left: 0;
+}
 @media(min-width: 992px){
     .footericons{
         font-size: 50px;
@@ -117,6 +121,4 @@ p {
     .footericons:hover{
         color: blue;
     }
-
-
 }
