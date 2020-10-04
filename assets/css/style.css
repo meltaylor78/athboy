@@ -34,14 +34,14 @@ h1, h2, h3, h4, h5{
 .links{
     background-color: grey;
     font-family: "Roboto Condensed", sans-serif;
-    font-size: 18px;
+    font-size: 12px;
 }
 .mainnav {
-    padding-left: 30px;
+    padding-left: 20px;
     padding-top: 10px;
 }
 .navlink{
-    padding-right: 30px;
+    padding-right: 15px;
 }
 .links a{
     color: white;
