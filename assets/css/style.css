@@ -16,6 +16,15 @@ h1, h2, h3, h4, h5{
     min-height: 360px;
 }
 /* -_-_-_-_-_-_-_-_-_-_ Header Titles _-_-_-_-_-_-_-_-_-_- */
+.container{
+    position: relative;
+    background-color: lightgray;
+}
+.headingtext{
+    position: absolute;
+    top: 10px;
+    color: orange;
+}
 
 /* -_-_-_-_-_-_-_-_-_-_ Nav Links _-_-_-_-_-_-_-_-_-_- */
 .mainnav {
