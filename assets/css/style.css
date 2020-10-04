@@ -20,24 +20,28 @@ h1, h2, h3, h4, h5{
     position: relative;
     background-color: lightgray;
 }
+.container li{
+    display: inline-block;
+}
 .headingtext{
     position: absolute;
     top: 10px;
     color: orange;
+    border-bottom: 1px solid;
 }
 
 /* -_-_-_-_-_-_-_-_-_-_ Nav Links _-_-_-_-_-_-_-_-_-_- */
-.mainnav {
-    padding-left: 10em;
-    padding-top: 10px;
-}
-.navlink{
-    padding-right: 10em;
-}
 .links{
     background-color: grey;
     font-family: "Roboto Condensed", sans-serif;
-    font-size: 28px;
+    font-size: 18px;
+}
+.mainnav {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.navlink{
+    padding-right: 30px;
 }
 .links a{
     color: white;
