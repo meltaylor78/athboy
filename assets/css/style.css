@@ -19,14 +19,42 @@ p {
     background-size: cover;
     min-height: 360px;
 }
+@media(min-width: 992px){
+    .header_image{
+        height: 600px;
+    }
+}
 /* -_-_-_-_-_-_-_-_-_-_ Header Titles _-_-_-_-_-_-_-_-_-_- */
 .headingtext{
     position: absolute;
     top: 10px;
-    color: orange;
+    color: white;
     font-weight: 700;
-    border-bottom: 2px solid;
+    background-color: rgba(255, 165, 0, .9);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    letter-spacing: 4px;
 }
+.headingtext h1{
+    font-size: 30px;
+}
+@media(min-width: 992px){
+    .headingtext{
+        position: absolute;
+        top: 50px;
+        color: white;
+        font-weight: 700;
+        background-color: rgba(255, 165, 0, .9);
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        letter-spacing: 3px;
+    }
+    .headingtext h1{
+        font-size: 50px;
+    }
+} 
 /* -_-_-_-_-_-_-_-_-_-_ Nav Links _-_-_-_-_-_-_-_-_-_- */
 .links{
     background-color: grey;
@@ -56,14 +84,14 @@ p {
 }
 @media(min-width: 992px){
     .navlink{
-        padding-right: 15em;
+        padding-right: 9em;
     }
     .mainnav {
-        padding-left: 15em;
+        padding-left: 8em;
         padding-top: 20px;
     }
     .links{
-        font-size: 20px;
+        font-size: 22px;
     }
 }
 /* -_-_-_-_-_-_-_-_-_-_ Footer _-_-_-_-_-_-_-_-_-_- */
@@ -73,11 +101,15 @@ p {
 }
 .footericons{
     font-size: 20px;
+    color: white;
+    margin-right: 3px;
+}
+.footericons:hover{
     color: orange;
 }
 .left-footer-col{
-    padding-top: 25px;
-    color: orange;
+    padding-top: 10px;
+    color: white;
     border-right: 1px solid;
 }
 .left-footer-col h5{
@@ -86,39 +118,52 @@ p {
 }
 .right-footer-col{
     padding-top: 10px;
-    color: orange;
+    color: white;
     font-size: 10px;
 }
 .right-footer-col h5{
     font-size: 10px;
 }
-.footer ul:before{
-    margin-left: 0;
+.right-footer-col ul {
+  margin: 0; 
+  padding:0
 }
+.copyright{
+    font-size: 7px;
+    padding-left: 50px;
+}  
+
 @media(min-width: 992px){
     .footericons{
         font-size: 50px;
-        color: orange;
+        color: white;
         padding-right: 50px;
     }
     .left-footer-col{
-        padding-top: 50px;
-        padding-left: 50px;
-        color: orange;
+        padding-left: 100px;
+        color: white;
         border-right: 10px solid;
     }
     .left-footer-col h5{
         font-size: 30px;
+        letter-spacing: 4px;
+        
+    }
+    .copyright{
+        font-size: 10px;
+        padding-left: 50px;
     }   
     .right-footer-col{
         padding-top: 20px;
-        color: orange;
+        color: white;
         font-size: 20px;
     }
     .right-footer-col h5{
         font-size: 20px;
+        padding-left: 150px;
+        letter-spacing: 4px;
     }
-    .footericons:hover{
-        color: blue;
+    .right-footer-col ul {
+        padding-left: 90px;
     }
 }
