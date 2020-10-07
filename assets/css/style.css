@@ -184,3 +184,15 @@ p {
     background-size: cover;
     min-height: 360px;
 }
+.introtext, .videoheading, .introheading, .mapheading, h1{
+    text-align: center;
+    letter-spacing: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.videorow{
+    height: 400px;
+    width: 750px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
