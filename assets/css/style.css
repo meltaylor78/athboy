@@ -167,3 +167,20 @@ p {
         padding-left: 90px;
     }
 }
+/* -_-_-_-_-_-_-_-_-_-_ body common elements _-_-_-_-_-_-_-_-_-_- */
+.lightcontainer{
+    background-color: lightgray;
+
+}
+.darkcontainer{
+    background-color: lightskyblue;
+}
+
+/* -_-_-_-_-_-_-_-_-_-_ index page _-_-_-_-_-_-_-_-_-_- */
+.introsectionpic{
+    background: url(../../assets/images/index/athboy_sign_park.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+}
