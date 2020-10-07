@@ -180,14 +180,14 @@ p {
 }
 
 /* -_-_-_-_-_-_-_-_-_-_ index page _-_-_-_-_-_-_-_-_-_- */
-.introtext p{
+.introtext, .maptext, .introsectiontext p{
     text-align: center;
-    padding-right: 20%;
-    padding-left: 20%;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 .intorrow, .videorow, .maprow{
     height: 560px;
-
+    padding-bottom: 20px;
 }
 .introsectiontext{
     padding-left: 5%;
@@ -200,6 +200,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
+    width: 100%;
 }
 .introtext, .videoheading, .introheading, .mapheading, h1{
     text-align: center;
@@ -207,9 +208,19 @@ p {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.videocol{
-    height: 400px;
-    width: 750px;
-    margin: 0 auto;
+.ramblevideo, .athboyvideo{
+    background-size: cover;
+    width: 95%;
+    height: 100%;
+    padding-left: 15px;
+}
+.ramblevideo{
     padding-bottom: 20px;
+}
+.videocol{
+    border-right: 1px solid orange;
+}
+.mapcol iframe{
+    width: 100%;
+    height: 360px;
 }
