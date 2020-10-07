@@ -224,3 +224,21 @@ p {
     width: 100%;
     height: 360px;
 }
+/* -_-_-_-_-_-_-_-_-_-_ inquiry page _-_-_-_-_-_-_-_-_-_- */
+.inquirytext{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.inquiryform{
+    margin: 0 auto;
+    max-width: 50%;
+}
+.form-control{
+    margin-bottom: 5px;
+}
+.radio{
+    padding-right: 25px;
+    padding-left: 10px;
+}

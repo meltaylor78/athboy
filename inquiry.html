@@ -38,18 +38,36 @@
             </div>
         </div>
     </header>    
-    / <br>
-    / <br>
-    / <br>
-         Will justy havce a form here to submit some questions.. To be updated.. 
-              More to come soon <br>
-
-    // <br>
-    / <br>
-    ./ <br>
-    ./ <br>
-    // <br>
-    /// <br>
+    <article>
+        <div class="fluid-container">
+            <div class="row-md-8 formrow">
+                <div class="col inquirytext">
+                <h2>Have a Question?</h2>
+                <p>Submit using the below form and a member of the team will be happy to assist.</p>
+                </div>
+                <div class="inquiryform">
+                    <form>
+                        <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required >
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Your e-mail" required >
+                        <input type="text" name="phone" id="phone" class="form-control" placeholder="Your phone No. (Optional)" >
+                        <p>Which area is your question related to:</p>
+                            <input type="radio" id="general" name="area" value="general" required="required">
+                            <label class="radio" for="general">General</label><br>
+                            <input type="radio" id="sports" name="area" value="sports">
+                            <label class="radio" for="sports">Sports Club</label><br>
+                            <input type="radio" id="activity" name="area" value="activity">
+                            <label class="radio" for="activity">Activity</label><br>
+                            <input type="radio" id="event" name="area" value="event">
+                            <label class="radio" for="event">Event</label>
+                        <textarea name="question" id="question" rows="5" class="form-control" placeholder="Enter details of your question / comment here." required></textarea>
+                        <div>
+                            <button class="btn btn-warning" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </article>
     <footer class="fluid-container">
         <div class="row footer">
             <div class="col left-footer-col">
