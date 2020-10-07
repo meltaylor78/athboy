@@ -98,6 +98,7 @@ p {
 .footer{
     background-color: grey;
     min-height: 30px;
+    border-top: 1px solid orange;
 }
 .footericons{
     font-size: 20px;
@@ -169,15 +170,31 @@ p {
 }
 /* -_-_-_-_-_-_-_-_-_-_ body common elements _-_-_-_-_-_-_-_-_-_- */
 .lightcontainer{
-    background-color: lightgray;
+    background-color: white;
+    border-top: 1px solid orange;
+    border-bottom: 1px solid orange;
 
 }
 .darkcontainer{
-    background-color: lightskyblue;
+    background-color: lightgray;
 }
 
 /* -_-_-_-_-_-_-_-_-_-_ index page _-_-_-_-_-_-_-_-_-_- */
-.introsectionpic{
+.introtext p{
+    text-align: center;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+.intorrow, .videorow, .maprow{
+    height: 560px;
+    padding-bottom: 20px;
+}
+.introsectiontext{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+.introsectionpic {
     background: url(../../assets/images/index/athboy_sign_park.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -190,7 +207,7 @@ p {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.videorow{
+.videocol{
     height: 400px;
     width: 750px;
     margin: 0 auto;
