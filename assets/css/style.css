@@ -229,13 +229,17 @@ p {
 
 .sportscol{
     border-right: 1px solid orange;
+    padding-left: 50px
 }
 .sport_row{
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     padding-top: 20px;
     border-bottom: 1px solid orange;
 }
-
+.sport_row span{
+    font-weight: 700;
+    padding-left: 40px;
+}
 
 /* -_-_-_-_-_-_-_-_-_-_ activites page pictures _-_-_-_-_-_-_-_-_-_- */
 
