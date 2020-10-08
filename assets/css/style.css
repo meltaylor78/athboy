@@ -227,9 +227,18 @@ p {
 
 /* -_-_-_-_-_-_-_-_-_-_ activites page _-_-_-_-_-_-_-_-_-_- */
 
-.sportscol{
+.sportscol, .activitycol{
     border-right: 1px solid orange;
-    padding-left: 50px
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.sportscol, .activitycol, h1{
+    font-weight: 700;
+    border-bottom: 1px solid orange;
+    text-align: center;
+}
+.sportscol, .activitycol, h3{
+    padding-bottom: 20px;
 }
 .sport_row{
     padding-bottom: 20px;
@@ -238,34 +247,74 @@ p {
 }
 .sport_row span{
     font-weight: 700;
-    padding-left: 40px;
 }
 
 /* -_-_-_-_-_-_-_-_-_-_ activites page pictures _-_-_-_-_-_-_-_-_-_- */
-
 .gaa {
     background: url(../../assets/images/activity/athboy_gaa_crest.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 50px;
-    width: 50px;
+    height: 300px;
+    width: 300px;
     background-color: white;
 }
 .soccer {
     background: url(../../assets/images/activity/athboy_soccer_crest.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 50px;
-    width: 50px;
+    height: 300px;
+    width: 300px;
     background-color: white;
 }
 .rugby {
     background: url(../../assets/images/activity/athboy_rugby_crest.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+}
+.classact {
+    background: url(../../assets/images/activity/classact.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+}
+.reeldeal {
+    background: url(../../assets/images/activity/reeldeal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+}
+.scouts {
+    background: url(../../assets/images/activity/scouts.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+}
+
+@media(min-width: 992px){
+    .gaa, .soccer, .rugby, .scouts, .classact, .reeldeal {
     min-height: 50px;
     width: 50px;
-    background-color: white;
+       background-color: white;
+    }
+}
+
+.eventcol{
+    border: 1px solid black;
+}
+.colcenter{
+    margin: 0 auto;
+}
+.eventrow{
+    margin: 0 auto;
 }
 
 /* -_-_-_-_-_-_-_-_-_-_ inquiry page _-_-_-_-_-_-_-_-_-_- */
