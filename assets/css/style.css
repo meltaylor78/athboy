@@ -306,15 +306,13 @@ p {
        background-color: white;
     }
 }
-
+.eventsectionrow{
+    margin: 0 auto;
+}
 .eventcol{
     border: 1px solid black;
-}
-.colcenter{
     margin: 0 auto;
-}
-.eventrow{
-    margin: 0 auto;
+    min-height: 100px;
 }
 
 /* -_-_-_-_-_-_-_-_-_-_ inquiry page _-_-_-_-_-_-_-_-_-_- */
