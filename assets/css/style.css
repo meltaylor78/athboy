@@ -78,7 +78,7 @@ p {
     margin-right: 10px;
     color: orange;
 }
-.links .active{
+.links .activeurl{
     color: orange;
     border-bottom: 1px solid;
 }
@@ -195,7 +195,7 @@ p {
     text-align: center;
 }
 .introsectionpic {
-    background: url(../../assets/images/index/athboy_sign_park.jpg);
+    background: url(../../assets/images/header/athboy_aerial_view.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -316,6 +316,9 @@ p {
 }
 
 /* -_-_-_-_-_-_-_-_-_-_ history page _-_-_-_-_-_-_-_-_-_- */
+.carousel-item{
+    text-align: center;
+}
 
 /* -_-_-_-_-_-_-_-_-_-_ history page pictures _-_-_-_-_-_-_-_-_-_- */
 
