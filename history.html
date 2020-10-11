@@ -6,9 +6,7 @@
     <title>Athboy</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-    
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />    
 </head>
 <body>
     <header>
@@ -27,7 +25,7 @@
                         <a href="index.html"><i class="fa fa-home icons" aria-hidden="true"></i><span>Home</span></a>
                     </li>
                     <li class="navlink list-inline-item">
-                        <a href="history.html" class="active" ><i class="fa fa-history icons" aria-hidden="true"></i><span>History</span></a>
+                        <a href="history.html" class="activeurl" ><i class="fa fa-history icons" aria-hidden="true"></i><span>History</span></a>
                     </li>
                     <li class="navlink list-inline-item">
                         <a href="activites.html" ><i class="fa fa-coffee icons" aria-hidden="true"></i><span>Activites</span></a>
@@ -50,19 +48,29 @@
         </div>
     </div>
 
-    <section id="photos">
-        <img src="../../assets/images/history/athboy_mainstreet.jpg" alt="">
-        <img src="../../assets/images/history/athboy_mainstreet_1916.jpg" alt="">
-        <img src="../../assets/images/history/athboy_mainstreet_current.jpg" alt="">
-        <img src="../../assets/images/history/church.jpg" alt="">
-        <img src="../../assets/images/history/church_current.jpg" alt="">
-        <img src="../../assets/images/history/pchurch.jpg" alt="">
-        <img src="../../assets/images/history/ulsterbank_current.jpg" alt="">
-        <img src="../../assets/images/history/ulsterbank.jpg" alt="">
-        <img src="../../assets/images/history/pchurch.jpg" alt="">
-        <img src="../../assets/images/history/train_workshop_current.jpg" alt="">
-        <img src="../../assets/images/history/train_workshop.jpg" alt="">
-    </section>
+    <div class="comtainer">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="my-slide" class="carousel slide" data-ride="carousel">   
+
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="../../assets/images/header/athboy_aerial_view.jpg" alt="Athboy main street"/>
+                            <div class="carousel-caption">  
+                                <h2 style="color:red;">Athboy main street</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../../assets/images/history/church.jpg" alt="Athboy main street"/>
+                            <div class="carousel-caption">  
+                                <h1>Athboy main street</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
 
     <footer class="fluid-container">
         <div class="row footer">
