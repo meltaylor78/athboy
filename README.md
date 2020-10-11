@@ -12,6 +12,10 @@ The website
 ### Testing
 ### Deployment
 ### Credits
+Bootstrap tutorial 21 - Carousel (Slideshow)
+     Quentin Watt Tutorials https://www.youtube.com/watch?v=1FnMDubA25A&t=284s
+
+
 #### Contnet
 #### Fonts
     [bootstrap](https://getbootstrap.com/)
