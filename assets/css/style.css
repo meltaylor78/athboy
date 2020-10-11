@@ -247,6 +247,7 @@ p {
 }
 .sport_row span{
     font-weight: 700;
+    background-color: lightgray;
 }
 
 /* -_-_-_-_-_-_-_-_-_-_ activites page pictures _-_-_-_-_-_-_-_-_-_- */
@@ -254,9 +255,10 @@ p {
     background: url(../../assets/images/activity/athboy_gaa_crest.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 300px;
     width: 300px;
-    background-color: white;
+    background-color: lightgray;
 }
 .soccer {
     background: url(../../assets/images/activity/athboy_soccer_crest.jpg);
@@ -316,12 +318,25 @@ p {
 }
 
 /* -_-_-_-_-_-_-_-_-_-_ history page _-_-_-_-_-_-_-_-_-_- */
-.carousel-item{
-    text-align: center;
+.prev-arrow, .next-arrow{
+    background-color: white;
+    font-size: 30px;
+    color: orange;
+}
+.prev-arrow:hover, .next-arrow:hover{
+    background-color: orange;
+    font-size: 30px;
+    color: white;
+}
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: orange;
 }
 
-/* -_-_-_-_-_-_-_-_-_-_ history page pictures _-_-_-_-_-_-_-_-_-_- */
 
+/* -_-_-_-_-_-_-_-_-_-_ history page pictures _-_-_-_-_-_-_-_-_-_- */
 
 /* -_-_-_-_-_-_-_-_-_-_ inquiry page _-_-_-_-_-_-_-_-_-_- */
 .inquirytext{
