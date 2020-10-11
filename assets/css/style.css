@@ -334,10 +334,20 @@ p {
   border-radius: 100%;
   background-color: orange;
 }
-
+.carousel-caption h2{
+    color: black;
+}
 
 /* -_-_-_-_-_-_-_-_-_-_ history page pictures _-_-_-_-_-_-_-_-_-_- */
-
+.mainstreet-1916{
+    content: url(../../assets/images/history/athboy_mainstreet_1916.jpg);
+}
+.mainstreet{
+    content: url(../../assets/images/history/athboy_mainstreet.jpg);
+}
+.mainstreet-current{
+    content: url(../../assets/images/history/athboy_mainstreet_current.jpg);
+}
 /* -_-_-_-_-_-_-_-_-_-_ inquiry page _-_-_-_-_-_-_-_-_-_- */
 .inquirytext{
     margin: 0 auto;
