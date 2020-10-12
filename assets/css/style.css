@@ -318,10 +318,35 @@ p {
 }
 
 /* -_-_-_-_-_-_-_-_-_-_ history page _-_-_-_-_-_-_-_-_-_- */
-.timeline-row{
+.hist-timeline-col{
     border-bottom: 1px solid orange;
+    padding-bottom: 50px;
 }
-
+.timeline-section{
+    border-left: 1px solid orange;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.timeline-hist-dark{
+    background-color: lightgray;
+}
+.info-icon{
+    color: orange;
+    font-size: 20px;
+    padding-right: 5px;
+}
+.timeline-section h4{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.timeline-section p{
+    padding-left: 40px;
+}
+.timeline-fact h5{
+    position: absolute;
+    left: 5px;
+    color: orange;
+}
 
 .carousel {
   margin: 0 auto;
