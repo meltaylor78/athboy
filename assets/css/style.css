@@ -318,6 +318,15 @@ p {
 }
 
 /* -_-_-_-_-_-_-_-_-_-_ history page _-_-_-_-_-_-_-_-_-_- */
+.timeline-row{
+    border-bottom: 1px solid orange;
+}
+
+
+.carousel {
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
 .prev-arrow, .next-arrow{
     background-color: white;
     font-size: 30px;
@@ -337,17 +346,42 @@ p {
 .carousel-caption h2{
     color: black;
 }
+.carousel-heading, .carousel-paragraph {
+    text-align: center;
+}
 
 /* -_-_-_-_-_-_-_-_-_-_ history page pictures _-_-_-_-_-_-_-_-_-_- */
-.mainstreet-1916{
+.hist-img-1{
     content: url(../../assets/images/history/athboy_mainstreet_1916.jpg);
 }
-.mainstreet{
+.hist-img-2{
     content: url(../../assets/images/history/athboy_mainstreet.jpg);
 }
-.mainstreet-current{
+.hist-img-3{
     content: url(../../assets/images/history/athboy_mainstreet_current.jpg);
 }
+.hist-img-4{
+    content: url(../../assets/images/history/church.jpg);
+}
+.hist-img-5{
+    content: url(../../assets/images/history/church_current.jpg);
+}
+.hist-img-6{
+    content: url(../../assets/images/history/pchurch.jpg);
+}
+.hist-img-7{
+    content: url(../../assets/images/history/ulsterbank.jpg);
+}
+.hist-img-8{
+    content: url(../../assets/images/history/ulsterbank_current.jpg);
+}
+.hist-img-9{
+    content: url(../../assets/images/history/train_workshop.jpg);
+}
+.hist-img-10{
+    content: url(../../assets/images/history/train_workshop_current.jpg);
+}
+
 /* -_-_-_-_-_-_-_-_-_-_ inquiry page _-_-_-_-_-_-_-_-_-_- */
 .inquirytext{
     margin: 0 auto;
