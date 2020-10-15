@@ -195,7 +195,7 @@ p {
     text-align: center;
 }
 .introsectionpic {
-    background: url(../../assets/images/header/athboy_aerial_view.jpg);
+    background: url(../../assets/images/index/athboy_sign_park.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -249,7 +249,44 @@ p {
     font-weight: 700;
     background-color: lightgray;
 }
-
+/* -_-_-_-_-_-_-_-_-_-_ activites page - Event Section _-_-_-_-_-_-_-_-_-_- */
+.event-section-title{
+    background-color: gray;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: orange;
+}
+.event-section-title h2{
+    padding-top: 5px;
+    padding-bottom: 7px;
+    letter-spacing: 1px;
+}
+ .date-section-col-light{
+     background-color: lightgray;
+     border-right: 2px solid white;
+     margin-bottom: 15px;
+     vertical-align: middle;
+ }
+.details-section-row-light{
+    background-color: lightgray;
+    margin-bottom: 15px;
+}
+.date-heading{
+    background-color: orange;
+    text-align: center
+}
+.date-heading{
+    background-color: orange;
+    text-align: center
+}
+.date-details{
+    padding-top: 50px;
+}
+.more-info{
+    background-color: orange;
+}
 /* -_-_-_-_-_-_-_-_-_-_ activites page pictures _-_-_-_-_-_-_-_-_-_- */
 .gaa {
     background: url(../../assets/images/activity/athboy_gaa_crest.jpg);
