@@ -463,6 +463,10 @@ p {
 }
 
 /* -_-_-_-_-_-_-_-_-_-_ inquiry page _-_-_-_-_-_-_-_-_-_- */
+.formrow{
+    padding-bottom: 10px;
+    border: 1px solid orange;
+}
 .inquirytext{
     margin: 0 auto;
     text-align: center;
@@ -479,5 +483,11 @@ p {
 .radio{
     padding-right: 25px;
     padding-left: 10px;
+}
+@media(min-width: 992px){
+    .formrow {
+        margin: 20px 25% 20px 25%;
+        background-color: lightgray; 
+     }
 }
 
