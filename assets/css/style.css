@@ -288,6 +288,7 @@ p {
 }
 .date-details{
     padding-top: 10px;
+    padding-left: 10px;
 }
 .more-info{
     background-color: orange;
@@ -363,9 +364,13 @@ p {
 /* -_-_-_-_-_-_-_-_-_-_ activites page - Event Section _-_-_-_-_-_-_-_-_-_- */
 .puca {
     content: url(../../assets/images/activity/events/puca.jpg);
+    margin-left: 5px;
+    margin-top: 30px;
 }
 .blue_jean {
     content: url(../../assets/images/activity/events/blue_jean.jpg);
+    margin-left: 5px;
+    margin-top: 30px;
 }
 /* -_-_-_-_-_-_-_-_-_-_ history page _-_-_-_-_-_-_-_-_-_- */
 .hist-timeline-col{
