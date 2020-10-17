@@ -80,13 +80,7 @@ p {
     position: fixed;
     top: 0px;
     z-index: 1;
-}
-.mainnav {
-    padding-left: 2.5px;
-    padding-top: 10px;
-}
-.navlink{
-    padding-right: 8px;
+    width: 100%
 }
 .links a{
     color: white;
@@ -94,26 +88,9 @@ p {
 .links a:hover{
     color: orange;
 }
-.icons{
-    margin-right: 10px;
-    color: orange;
-}
 .links .activeurl{
     color: orange;
     border-bottom: 1px solid;
-}
-@media(min-width: 992px){
-    .navlink{
-        padding-right: 9em;
-    }
-    .mainnav {
-        padding-left: 8em;
-        padding-top: 20px;
-    }
-    .links{
-        font-size: 22px;
-        top: 0px;
-    }
 }
 /* -_-_-_-_-_-_-_-_-_-_ Footer _-_-_-_-_-_-_-_-_-_- */
 .footer{
@@ -217,7 +194,7 @@ p {
 }
 .introsectionpic {
     background: url(../../assets/images/index/athboy_sign_park.jpg);
-    background-position: left;
+    background-position: top left;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
