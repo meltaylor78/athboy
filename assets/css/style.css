@@ -62,7 +62,7 @@ p {
     font-size: 16px;
     opacity: 0.9;
     position: fixed;
-    top: 30px;
+    top: 0px;
     z-index: 1;
 }
 .mainnav {
