@@ -60,6 +60,8 @@ p {
     background-color: grey;
     font-family: "Roboto Condensed", sans-serif;
     font-size: 16px;
+    position: fixed;
+    top: 0px;
 }
 .mainnav {
     padding-left: 2.5px;
