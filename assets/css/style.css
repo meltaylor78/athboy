@@ -97,11 +97,12 @@ p {
     padding: 0 !important;
     margin: 0 !important;
     font-size: 0;
+    border-bottom: 1px solid orange
 }
 .navlink{
     border-right: 1px solid white;
-    font-size: 15px;
-    margin: 15px 0px 15px 0px;
+    font-size: 17px;
+    padding: 10px 0px 10px 0px;
     text-align: left;
     padding-left: 5px;
     margin: 0 !important;
@@ -112,9 +113,7 @@ p {
 @media(min-width: 992px){
     .navlink{
         font-size: 25px;
-        margin: 20px 0px 20px 0px;
         text-align: center;
-        padding: 0;
     }
     .navlink i{
         padding-right: 5px;
