@@ -303,16 +303,17 @@ p {
  .date-section-col-light{
      background-color: lightgray;
      border-right: 2px solid white;
-     margin-bottom: 15px;
      vertical-align: middle;
  }
- 
+ .event-detail-row{
+    border: 1px solid orange;
+    margin-bottom: 10px;
+}
 .details-section-row-light{
     background-color: lightgray;
-    margin-bottom: 15px;
+
 }
 .details-section-row-light h4{
-    padding-bottom: 15px;
     border-bottom: 2px solid orange;
 }
 .date-heading{
@@ -326,9 +327,28 @@ p {
 .date-details{
     padding-top: 10px;
     padding-left: 10px;
+    text-align: center;
 }
 .more-info{
     background-color: orange;
+}
+@media(min-width: 992px){
+    .gaa, .soccer, .rugby, .scouts, .classact, .reeldeal {
+    min-height: 50px;
+    width: 50px;
+       background-color: white;
+    }
+    .event-row{
+        margin: 0 20% 0 20%;
+    }
+}
+.eventsectionrow{
+    margin: 0 auto;
+}
+.eventcol{
+    border: 1px solid black;
+    margin: 0 auto;
+    min-height: 100px;
 }
 
 /* -_-_-_-_-_-_-_-_-_-_ activites page pictures _-_-_-_-_-_-_-_-_-_- */
@@ -381,33 +401,12 @@ p {
     width: 300px;
     background-color: white;
 }
-
-@media(min-width: 992px){
-    .gaa, .soccer, .rugby, .scouts, .classact, .reeldeal {
-    min-height: 50px;
-    width: 50px;
-       background-color: white;
-    }
-}
-.eventsectionrow{
-    margin: 0 auto;
-}
-.eventcol{
-    border: 1px solid black;
-    margin: 0 auto;
-    min-height: 100px;
-}
-
-/* -_-_-_-_-_-_-_-_-_-_ activites page - Event Section _-_-_-_-_-_-_-_-_-_- */
+/* -_-_-_-_-_-_-_-_-_-_ activites page - Event images _-_-_-_-_-_-_-_-_-_- */
 .puca {
     content: url(../../assets/images/activity/events/puca.jpg);
-    margin-left: 5px;
-    margin-top: 30px;
 }
 .blue_jean {
     content: url(../../assets/images/activity/events/blue_jean.jpg);
-    margin-left: 5px;
-    margin-top: 30px;
 }
 /* -_-_-_-_-_-_-_-_-_-_ history page _-_-_-_-_-_-_-_-_-_- */
 .hist-timeline-col{
@@ -417,21 +416,6 @@ p {
 .hist-timeline-row{
     margin-left: 10px;
     margin-right: 5px;
-}
-@media(min-width: 992px){
-    .hist-timeline-row{
-        margin-left: 20%;
-        margin-right: 20%;
-       border-left: 1px solid orange;
-       border-right: 1px solid orange;
-       margin-bottom: 20px;
-    }
-    .carousel-div{
-        margin-left: 10%;
-        margin-right: 10%;
-       border-left: 1px solid orange;
-       border-right: 1px solid orange;
-    }
 }
 .timeline-section{
     border-left: 1px solid orange;
@@ -458,7 +442,9 @@ p {
     left: 5px;
     color: orange;
 }
-
+.timeline-fact span{
+    padding-left: 10px;
+}
 .carousel {
   margin: 0 auto;
   padding-bottom: 20px;
@@ -485,7 +471,19 @@ p {
 .carousel-heading, .carousel-paragraph {
     text-align: center;
 }
-
+@media(min-width: 992px){
+    .hist-timeline-row{
+        margin-left: 20%;
+        margin-right: 20%;
+       margin-bottom: 20px;
+    }
+    .carousel{
+        margin-left: 10%;
+        margin-right: 10%;
+        border-right: 1px solid orange;
+        border-left: 1px solid orange;
+    }
+}
 /* -_-_-_-_-_-_-_-_-_-_ history page pictures _-_-_-_-_-_-_-_-_-_- */
 .hist-img-1{
     content: url(../../assets/images/history/athboy_mainstreet_1916.jpg);
@@ -521,7 +519,9 @@ p {
 /* -_-_-_-_-_-_-_-_-_-_ inquiry page _-_-_-_-_-_-_-_-_-_- */
 .formrow{
     padding-bottom: 10px;
+    margin: 10px 10px 10px 10px;
     border: 1px solid orange;
+    background-color: lightgray; 
 }
 .inquirytext{
     margin: 0 auto;
@@ -531,7 +531,7 @@ p {
 }
 .inquiryform{
     margin: 0 auto;
-    max-width: 50%;
+    max-width: 70%;
 }
 .form-control{
     margin-bottom: 5px;
@@ -543,7 +543,6 @@ p {
 @media(min-width: 992px){
     .formrow {
         margin: 20px 25% 20px 25%;
-        background-color: lightgray; 
      }
 }
 
