@@ -58,7 +58,7 @@ p {
         font-size: 50px;
     }
 } 
-.index-paragraph-2{
+.index-paragraph-2, .acitivity-paragraph-2, .heading-desktop, .heading-mobile{
   visibility: hidden;
   display: none;
 }
@@ -66,7 +66,17 @@ p {
     color: orange;
 }
 @media(min-width: 992px){
-    .index-paragraph-2{
+    .index-paragraph-2, .acitivity-paragraph-2{
+        visibility: visible;
+        display: block;
+    }
+    .heading-desktop{
+        visibility: visible;
+        display: block;
+    }
+}
+@media(max-width: 992px){
+    .heading-mobile{
         visibility: visible;
         display: block;
     }
@@ -211,9 +221,12 @@ p {
     padding-right: 5%;
     padding-left: 5%;
 }
-.intorrow, .videorow, .maprow{
+.intorrow, .videorow{
     height: 560px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
+}
+.maprow{
+    padding: 0 10px 10px 10px;
 }
 .introsectiontext{
     padding-left: 5%;
@@ -232,9 +245,7 @@ p {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.introtext h1{
-    font-size: 25px;
-}
+
 .ramblevideo, .athboyvideo{
     background-size: cover;
     width: 95%;
@@ -259,27 +270,37 @@ p {
     .introtext h1{
         font-size: 50px;
     }
+    .maprow{
+        height: 560px;
+        padding: 0 5% 50px 5%;
+        padding-bottom: 20px;
+    }
 }
-
 /* -_-_-_-_-_-_-_-_-_-_ activites page _-_-_-_-_-_-_-_-_-_- */
+.activity-heading-text{
+    padding-left: 25px;
+    padding-right: 25px;
+}
 
 .sportscol, .activitycol{
     border-right: 1px solid orange;
+    border-top: 1px solid orange;
+    border-bottom: 1px solid orange;
+    background-color: white;
 }
 .sportscol{
     border-left: 1px solid orange;
 }
-.sportscol, .activitycol, h1{
+.sportscol, .activitycol, h2{
     font-weight: 700;
-    border-bottom: 1px solid orange;
     text-align: center;
+    border-bottom: 1px solid orange;
 }
 .sportscol, .activitycol, h3{
     padding-bottom: 20px;
 }
 .sport_row, .activity_row{
     padding: 20px 10px 20px 5px;
-    border-bottom: 1px solid orange;
 }
 .sport_row-icon, .activity_row-icon{
     padding: 20px 10px 20px 5px;
@@ -288,11 +309,19 @@ p {
     background-color: lightgray;
 }
 .activity-row-dark-gray{
-    background-color: gray;
+    background-color: darkgray;
 }
-.sport_row span{
+.sport_row, span{
     font-weight: 700;
-    background-color: lightgray;
+}
+.activityicons{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    padding-right: 20px;
+}
+.activityicons:hover{
+    color: orange;
 }
 /* -_-_-_-_-_-_-_-_-_-_ activites page - Event Section _-_-_-_-_-_-_-_-_-_- */
 .event-section-title{
@@ -319,10 +348,11 @@ p {
 }
 .details-section-row-light{
     background-color: lightgray;
-
 }
-.details-section-row-light h4{
+.details-section-row-light h3{
     border-bottom: 2px solid orange;
+    text-align: center;
+    padding: 10px 0 10px 0;
 }
 .date-heading{
     background-color: orange;
@@ -336,9 +366,6 @@ p {
     padding-top: 10px;
     padding-left: 10px;
     text-align: center;
-}
-.more-info{
-    background-color: orange;
 }
 
 @media(min-width: 992px){
@@ -354,6 +381,21 @@ p {
     .sport_activity_row{
         margin: 0 10% 0 10%;
         background-color: lightgray;
+    }
+    .activity-heading-text{
+        padding: 0;
+        margin: 0 10% 0 10%;
+        text-align: center;
+    }
+    .details-section-row-light p{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .activityicons{
+        font-size: 45px;
+        color: white;
+        text-align: center;
+        margin-right: 30px;
     }
 }
 .eventsectionrow{
