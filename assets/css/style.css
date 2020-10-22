@@ -495,7 +495,11 @@ p {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.timeline-hist{
+    padding-top: 10px;
+}
 .timeline-hist-dark{
+    padding-top: 10px;
     background-color: lightgray;
 }
 .info-icon{
@@ -508,7 +512,7 @@ p {
     padding-top: 30px;
 }
 .timeline-section p{
-    padding-left: 40px;
+    padding-left: 30px;
 }
 .timeline-fact h5{
     position: absolute;
