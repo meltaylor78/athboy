@@ -261,13 +261,13 @@ p {
     }
 }
 
-
 /* -_-_-_-_-_-_-_-_-_-_ activites page _-_-_-_-_-_-_-_-_-_- */
 
 .sportscol, .activitycol{
     border-right: 1px solid orange;
-    padding-left: 50px;
-    padding-right: 50px;
+}
+.sportscol{
+    border-left: 1px solid orange;
 }
 .sportscol, .activitycol, h1{
     font-weight: 700;
@@ -277,10 +277,18 @@ p {
 .sportscol, .activitycol, h3{
     padding-bottom: 20px;
 }
-.sport_row{
-    padding-bottom: 20px;
-    padding-top: 20px;
+.sport_row, .activity_row{
+    padding: 20px 10px 20px 5px;
     border-bottom: 1px solid orange;
+}
+.sport_row-icon, .activity_row-icon{
+    padding: 20px 10px 20px 5px;
+}
+.activity-row-light-gray{
+    background-color: lightgray;
+}
+.activity-row-dark-gray{
+    background-color: gray;
 }
 .sport_row span{
     font-weight: 700;
@@ -332,14 +340,20 @@ p {
 .more-info{
     background-color: orange;
 }
+
 @media(min-width: 992px){
     .gaa, .soccer, .rugby, .scouts, .classact, .reeldeal {
-    min-height: 50px;
-    width: 50px;
-       background-color: white;
+    height: 380px;
+    max-width: 360px;
+    background-color: white;
+    text-align: center;
     }
     .event-row{
-        margin: 0 20% 0 20%;
+        margin: 0 10% 0 10%;
+    }
+    .sport_activity_row{
+        margin: 0 10% 0 10%;
+        background-color: lightgray;
     }
 }
 .eventsectionrow{
@@ -356,50 +370,67 @@ p {
     background: url(../../assets/images/activity/athboy_gaa_crest.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     height: 300px;
-    width: 300px;
-    background-color: lightgray;
+    max-width: 300px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 auto;
 }
 .soccer {
     background: url(../../assets/images/activity/athboy_soccer_crest.jpg);
     background-position: center;
     background-repeat: no-repeat;
     height: 300px;
-    width: 300px;
+    max-width: 300px;
+    border: 1px solid black;
+    border-radius: 50%;
     background-color: white;
+    margin: 0 auto;
 }
 .rugby {
     background: url(../../assets/images/activity/athboy_rugby_crest.jpg);
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     height: 300px;
-    width: 300px;
+    max-width: 300px;
+    border: 1px solid black;
+    border-radius: 50%;
     background-color: white;
+    margin: 0 auto;
 }
 .classact {
     background: url(../../assets/images/activity/classact.jpg);
     background-position: center;
     background-repeat: no-repeat;
     height: 300px;
-    width: 300px;
+    max-width: 300px;
+    border: 1px solid black;
+    border-radius: 50%;
     background-color: white;
+    margin: 0 auto;
 }
 .reeldeal {
     background: url(../../assets/images/activity/reeldeal.jpg);
     background-position: center;
     background-repeat: no-repeat;
     height: 300px;
-    width: 300px;
+    max-width: 300px;
+    border: 1px solid black;
+    border-radius: 50%;
     background-color: white;
+    margin: 0 auto;
 }
 .scouts {
     background: url(../../assets/images/activity/scouts.jpg);
     background-position: center;
     background-repeat: no-repeat;
     height: 300px;
-    width: 300px;
+    max-width: 300px;
+    border: 1px solid black;
+    border-radius: 50%;
     background-color: white;
+    margin: 0 auto;
 }
 /* -_-_-_-_-_-_-_-_-_-_ activites page - Event images _-_-_-_-_-_-_-_-_-_- */
 .puca {
