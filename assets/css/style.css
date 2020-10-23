@@ -562,35 +562,50 @@ p {
     }
 }
 /* -_-_-_-_-_-_-_-_-_-_ history page pictures _-_-_-_-_-_-_-_-_-_- */
-.hist-img-1{
-    content: url(../../assets/images/history/athboy_mainstreet_1916.jpg);
+.hist-img-cs1{
+    content: url(../../assets/images/history/cs1_hill_of_ward_old.jpg);
 }
-.hist-img-2{
-    content: url(../../assets/images/history/athboy_mainstreet.jpg);
+.hist-img-cs2{
+    content: url(../../assets/images/history/cs2_hill_of_ward_new.jpg);
 }
-.hist-img-3{
-    content: url(../../assets/images/history/athboy_mainstreet_current.jpg);
+.hist-img-cs3{
+    content: url(../../assets/images/history/cs3_ariel_old.jpg);
 }
-.hist-img-4{
-    content: url(../../assets/images/history/church.jpg);
+.hist-img-cs4{
+    content: url(../../assets/images/history/cs4_ariel_new.jpg);
 }
-.hist-img-5{
-    content: url(../../assets/images/history/church_current.jpg);
+.hist-img-cs5{
+    content: url(../../assets/images/history/cs5_main_street_old.jpg);
 }
-.hist-img-6{
-    content: url(../../assets/images/history/pchurch.jpg);
+.hist-img-cs6{
+    content: url(../../assets/images/history/cs6_school_old.jpg);
 }
-.hist-img-7{
-    content: url(../../assets/images/history/ulsterbank.jpg);
+.hist-img-cs7{
+    content: url(../../assets/images/history/cs7_school_new.jpg);
 }
-.hist-img-8{
-    content: url(../../assets/images/history/ulsterbank_current.jpg);
+.hist-img-cs8{
+    content: url(../../assets/images/history/cs8_fair_green_rock.jpg);
 }
-.hist-img-9{
-    content: url(../../assets/images/history/train_workshop.jpg);
+.hist-img-cs9{
+    content: url(../../assets/images/history/cs9_prod-church_new.jpg);
 }
-.hist-img-10{
-    content: url(../../assets/images/history/train_workshop_current.jpg);
+.hist-img-cs10{
+    content: url(../../assets/images/history/cs10_prod_church_old.jpg);
+}
+.hist-img-cs11{
+    content: url(../../assets/images/history/cs11_athboy_railway_station.jpg);
+}
+.hist-img-cs12{
+    content: url(../../assets/images/history/cs12_railway_old.jpg);
+}
+.hist-img-cs13{
+    content: url(../../assets/images/history/cs13_railway_new.jpg);
+}
+.hist-img-cs14{
+    content: url(../../assets/images/history/cs14_bank.jpg);
+}
+.hist-img-cs15{
+    content: url(../../assets/images/history/cs15_history_stone.jpg);
 }
 
 /* -_-_-_-_-_-_-_-_-_-_ inquiry page _-_-_-_-_-_-_-_-_-_- */
