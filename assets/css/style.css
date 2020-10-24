@@ -296,15 +296,14 @@ p {
 }
 .sportscol{
     border-left: 1px solid orange;
+    padding-bottom: 0;
 }
 .sportscol, .activitycol, h2{
     font-weight: 700;
     text-align: center;
     border-bottom: 1px solid orange;
 }
-.sportscol, .activitycol, h3{
-    padding-bottom: 20px;
-}
+
 .sport_row, .activity_row{
     padding: 20px 10px 20px 5px;
 }
@@ -549,7 +548,7 @@ p {
   background-color: orange;
 }
 .carousel-caption h2{
-    color: black;
+    color: orange;
 }
 .carousel-heading, .carousel-paragraph {
     text-align: center;
