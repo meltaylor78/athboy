@@ -479,13 +479,6 @@ p {
     background-color: white;
     margin: 0 auto;
 }
-/* -_-_-_-_-_-_-_-_-_-_ activites page - Event images _-_-_-_-_-_-_-_-_-_- */
-.puca {
-    content: url(../../assets/images/activity/events/puca.jpg);
-}
-.blue_jean {
-    content: url(../../assets/images/activity/events/blue_jean.jpg);
-}
 /* -_-_-_-_-_-_-_-_-_-_ history page _-_-_-_-_-_-_-_-_-_- */
 .hist-timeline-col{
     border-bottom: 1px solid orange;
