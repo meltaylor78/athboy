@@ -275,6 +275,12 @@ p {
         padding: 0 5% 50px 5%;
         padding-bottom: 20px;
     }
+    .intro-message{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
 }
 /* -_-_-_-_-_-_-_-_-_-_ activites page _-_-_-_-_-_-_-_-_-_- */
 .activity-heading-text{
