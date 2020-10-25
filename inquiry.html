@@ -1,102 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Athboy</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-
-</head>
-<body>
-    <header>
-        <div class="container-fluid">
-             <div class="row header">
-                <a href="index.html" class="col header_image"></a>
-            </div>
-            <div class="headingtext">
-                <h1>Athboy Community</h1>
-            </div>
-        </div> 
-         <div class="container-fluid"> 
-            <div class="links row">
-                <ul class="mainnav list-inline col">
-                    <li class="navlink list-inline-item col-3">
-                        <a href="index.html"><i class="fas fa-home icons" aria-hidden="true"></i><span>Home</span></a>
-                    </li>
-                    <li class="navlink list-inline-item col-3">
-                        <a href="history.html"><i class="fas fa-history icons" aria-hidden="true"></i><span>History</span></a>
-                    </li>
-                    <li class="navlink list-inline-item col-3">
-                        <a href="activites.html" ><i class="fas fa-coffee icons" aria-hidden="true"></i><span>Activites</span></a>
-                    </li>
-                    <li class="navlink list-inline-item col-3 activeurl">
-                        <a href="inquiry.html" class="activeurl"><i class="fas fa-question icons" aria-hidden="true"></i><span>Inquiry</span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </header>    
-    <article>
-        <div class="fluid-container">
-            <div class="row-md-8 formrow">
-                <div class="col inquirytext">
-                <h2>Have a Question?</h2>
-                <p>Submit using the below form and a member of the team will be happy to assist.</p>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Athboy</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" type="text/css" />
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    </head>
+    <body>
+        <header>
+            <div class="container-fluid">
+                <div class="row header">
+                    <a href="index.html" class="col header_image"></a>
                 </div>
-                <div class="inquiryform">
-                    <form>
-                        <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required >
-                        <input type="email" name="email" id="email" class="form-control" placeholder="Your e-mail" required >
-                        <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone No. (Optional)" >
-                        <p>Which area is your question related to:</p>
-                            <input type="radio" id="general" name="area" value="general" required="required">
-                            <label class="radio" for="general">General</label><br>
-                            <input type="radio" id="sports" name="area" value="sports">
-                            <label class="radio" for="sports">Sports Club</label><br>
-                            <input type="radio" id="activity" name="area" value="activity">
-                            <label class="radio" for="activity">Activity</label><br>
-                            <input type="radio" id="event" name="area" value="event">
+                <div class="headingtext">
+                    <h1>Athboy Community</h1>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="links row">
+                    <ul class="mainnav list-inline col">
+                        <li class="navlink list-inline-item col-3">
+                            <a href="index.html"><i class="fas fa-home icons" aria-hidden="true"></i><span>Home</span></a>
+                        </li>
+                        <li class="navlink list-inline-item col-3">
+                            <a href="history.html"><i class="fas fa-history icons" aria-hidden="true"></i><span>History</span></a>
+                        </li>
+                        <li class="navlink list-inline-item col-3">
+                            <a href="activites.html"><i class="fas fa-coffee icons" aria-hidden="true"></i><span>Activites</span></a>
+                        </li>
+                        <li class="navlink list-inline-item col-3 activeurl">
+                            <a href="inquiry.html" class="activeurl"><i class="fas fa-question icons" aria-hidden="true"></i><span>Inquiry</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <article>
+            <div class="fluid-container">
+                <div class="row-md-8 formrow">
+                    <div class="col inquirytext">
+                        <h2>Have a Question?</h2>
+                        <p>Submit using the below form and a member of the team will be happy to assist.</p>
+                    </div>
+                    <div class="inquiryform">
+                        <form>
+                            <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required />
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Your e-mail" required />
+                            <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone No. (Optional)" />
+                            <p>Which area is your question related to:</p>
+                            <input type="radio" id="general" name="area" value="general" required="required" />
+                            <label class="radio" for="general">General</label><br />
+                            <input type="radio" id="sports" name="area" value="sports" />
+                            <label class="radio" for="sports">Sports Club</label><br />
+                            <input type="radio" id="activity" name="area" value="activity" />
+                            <label class="radio" for="activity">Activity</label><br />
+                            <input type="radio" id="event" name="area" value="event" />
                             <label class="radio" for="event">Event</label>
-                        <textarea name="question" id="question" rows="5" class="form-control" placeholder="Enter details of your question / comment here." required></textarea>
-                        <div>
-                            <button class="btn btn-warning" type="submit">Submit</button>
-                        </div>
-                    </form>
+                            <textarea name="question" id="question" rows="5" class="form-control" placeholder="Enter details of your question / comment here." required></textarea>
+                            <div>
+                                <button class="btn btn-warning" type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
-    </article>
-    <footer class="fluid-container">
-        <div class="row footer">
-            <div class="col left-footer-col">
-            <h5>Athboy Community</h5>
-            <h6 class="copyright"> Copyright (C) 2020</h6>
-            <h6 class="copyright"> All Rights Reserver</h6>
+        </article>
+        <footer class="fluid-container">
+            <div class="row footer">
+                <div class="col left-footer-col">
+                    <h5>Athboy Community</h5>
+                    <h6 class="copyright">Copyright (C) 2020</h6>
+                    <h6 class="copyright">All Rights Reserver</h6>
+                </div>
+                <div class="col right-footer-col">
+                    <h5>Social Media Links</h5>
+                    <ul>
+                        <li class="footerlinks list-inline-item">
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square footericons" aria-hidden="true"></i> <span class="sr-only">Facebook link.</span></a>
+                        </li>
+                        <li class="footerlinks list-inline-item">
+                            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter-square footericons" aria-hidden="true"></i> <span class="sr-only">Twitter link.</span></a>
+                        </li>
+                        <li class="footerlinks list-inline-item">
+                            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram footericons" aria-hidden="true"></i> <span class="sr-only">Instagram link.</span></a>
+                        </li>
+                        <li class="footerlinks list-inline-item">
+                            <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube-square footericons" aria-hidden="true"></i> <span class="sr-only">Youtube link.</span></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="col right-footer-col">
-                <h5>Social Media Links</h5>
-                <ul>
-                    <li class="footerlinks list-inline-item">
-                        <a href="https://www.facebook.com/" target="_blank" ><i class="fab fa-facebook-square footericons" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook link.</span></a>
-                    </li>
-                    <li class="footerlinks list-inline-item">
-                        <a href="https://www.twitter.com/" target="_blank" ><i class="fab fa-twitter-square footericons" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter link.</span></a>
-                    </li>
-                    <li class="footerlinks list-inline-item">
-                        <a href="https://www.instagram.com/" target="_blank" ><i class="fab fa-instagram footericons" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram link.</span></a>
-                    </li>
-                    <li class="footerlinks list-inline-item">
-                        <a href="https://www.youtube.com/" target="_blank" ><i class="fab fa-youtube-square footericons" aria-hidden="true"></i>
-                            <span class="sr-only">Youtube link.</span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-</body>
+        </footer>
+    </body>
 </html>
