@@ -1,7 +1,7 @@
 # **Athboy Community Information Hub** 
 <img src="/development_assets/athboy_community_hub.jpg">
 
-## <ins>Table of Contents<ins>
+## <ins>Index<ins>
 
 - [UX](#UX) 
     - [User Stories](#User_Stories)
@@ -46,7 +46,7 @@ The wireframe for each page can be found at the below linksl
 - Activites.html
 - Inquiry.html
 
-[Table of Contents](#contents)
+[Table of Contents](#Index)
 - - - -
 ## **<ins>Features</ins>**
 The following describes the features that have been implemented into the website with some notes on future enhancements.
@@ -63,66 +63,66 @@ Responsiveness;
 - More information is being sought from others local groups & related to upcoming events.
 
 - A future enhancement, would be to improve the events section to integrate a calendar view. (currently no planed timeline for this)
-[Table of Contents](#contents)
+[Table of Contents](#Index)
 - - - -
 ## <ins>Technologies_Used</ins>
-[Balsamiq](#https://balsamiq.com/wireframes/)
+**Balsamiq**    https://balsamiq.com/wireframes/
 - Basamiq was used in the design phase to create wireframes of the proposed web site.
 
-[Github](#https://github.com/)
+**Github** https://github.com/
 - Github is the repository used for version control & storage of the project.
 - Github pages was used for the deployment of the site.
 
-[Gitpod](#https://www.gitpod.io/)
+**Gitpod** https://www.gitpod.io/
 - Gitpod was the IDE used for the developemnt through out the project.
 
-[Bootstrap](#https://getbootstrap.com/)
+**Bootstrap** https://getbootstrap.com/
 - Bootstrap library was chosen for the initial layout & to provide responsiveness across devices sizes, layout was customised on top of bootstrap.
 
-[Google Fonts](#https://fonts.google.com/)
+**Google Fonts** https://fonts.google.com/
 - Google fonts provided fonts for the project (Roboto Condensed & Serrat)
 
-[Font Awesome](#https://fontawesome.com/)
+**Font Awesome** https://fontawesome.com/
 - Icons used through the web site are sourced from Font Awesome
 
-[W3C Validation Service](#https://validator.w3.org/)
+**W3C Validation Service** https://validator.w3.org/
 - HTML & CSS code was cheked on W3C validator at the end of the project.
 
-[HTML Formatter](#https://webformatter.com/html)
+**HTML Formatter** https://webformatter.com/html
 - HTML code was run through HTML formatter to fix any indentation issues.
 
-[ami.responsivedesign](#http://ami.responsivedesign.is/#)
+**ami.responsivedesign** http://ami.responsivedesign.is/#
 - The project was tested on ami.responsivedesign
 - image used in readme file was taken from ami.responsivedesign site
 
 
-[Table of Contents](#contents)
+[Table of Contents](#Index)
 - - - -
 ## <ins>Testing</ins>
 
-[Table of Contents](#contents)
+[Table of Contents](#Index)
 - - - -
 
 ## <ins>Deployment</ins>
 The site is deployed on Github Pages;
     https://meltaylor78.github.io/athboy/
 
-[Table of Contents](#contents)
+[Table of Contents](#Index)
 - - - -
 
 ## <ins>Credits</ins>
 
-[Table of Contents](#contents)
+[Table of Contents](#Index)
 - - - -
 
 ### <ins>Content</ins>
 
-[Table of Contents](#contents)
+[Table of Contents](#Index)
 - - - -
 
 ### <ins>Media</ins>
 
-[Table of Contents](#contents)
+[Table of Contents](#Index)
 - - - -
 
 ### <ins>Acknowledgements</ins>
@@ -130,6 +130,7 @@ The site is deployed on Github Pages;
 | --- | --- |
 | Name | 123 abc |
 | Name | Show file |
-[Table of Contents](#contents)
+
+[Table of Contents](#Index)
 - - - -
 
