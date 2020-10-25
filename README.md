@@ -104,6 +104,8 @@ Responsiveness;
 - - - -
 
 ## <ins>Deployment</ins>
+The site is deployed on Github Pages;
+    https://meltaylor78.github.io/athboy/
 
 [Table of Contents](#contents)
 - - - -
@@ -124,7 +126,10 @@ Responsiveness;
 - - - -
 
 ### <ins>Acknowledgements</ins>
-
+| Name | Acknowledgement |
+| --- | --- |
+| Name | 123 abc |
+| Name | Show file |
 [Table of Contents](#contents)
 - - - -
 
