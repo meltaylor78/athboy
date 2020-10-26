@@ -119,16 +119,28 @@ The site is deployed on Github Pages;
 - - - -
 
 ## <ins>Credits</ins>
-
-[Table of Contents](#Index)
+The developers of the Athboy community hub would like to thanks all those that contrbuted directly to the development of the site or through providing media and content for the site.
 - - - -
 
 ### <ins>Content</ins>
+
+| Details | Site | Link |
+| --- | --- | --- |
+| Historical Content | Athboy Wikipedia | https://en.wikipedia.org/wiki/Athboy |
+| Historical Content | Athboy 100 | https://athboy100.com/ |
 
 [Table of Contents](#Index)
 - - - -
 
 ### <ins>Media</ins>
+
+| Details | Site | Link |
+| --- | --- | --- |
+| Google Maps | Google | https://www.google.ie/maps |
+| Historical Images | Athboy 100 | https://athboy100.com/ |
+| Images | Athboy Parish | https://www.athboyparish.ie/ |
+| Video - Rambling Around Athboy | Rambling Girl - YouTube | https://www.youtube.com/watch?v=NPB_WZzZwJs&feature=youtu.be |
+| Images | Nick Eogans Adventures - YouTube | https://www.youtube.com/watch?v=iXYbLqi1xWU&feature=youtu.be |
 
 [Table of Contents](#Index)
 - - - -
@@ -136,10 +148,10 @@ The site is deployed on Github Pages;
 ### <ins>Acknowledgements</ins>
 | Name | AcknowRoleledgement | Acknowledgement |
 | --- | --- | --- |
-| Caroline Taylor | Inital Idea, Content Provider, User Accptnace Tetsing | test test |
-|  | Content Provider | test test |
-|  | User Accptnace Tetsing | test test |
-| Rahul Lakhanpal | Project Mentor | Rahul provide me with the gudance to complete the project and advise on areas to better meet the project brief |
+| Caroline Taylor | Initial Idea | Provide the initial idea for the project and help develop the wireframes of what would be included. |
+| Caroline Taylor | Content Provider | Provided images and content for the site |
+| Caroline Taylor | User Acceptance Testing | Helped with the testing of the site during the development and final user acceptance testing |
+| Rahul Lakhanpal | Project Mentor | Rahul provide me with the guidance to complete the project and advise on areas to better meet the project brief |
 
 [Table of Contents](#Index)
 - - - -
