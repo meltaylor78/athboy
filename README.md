@@ -128,8 +128,6 @@ The site is deployed on Github Pages;
 The developers of the Athboy community hub would like to thanks all those who contrbuted directly to the development of the site or through providing media and content for the site.
 - - - -
 
-### <ins>Content</ins>
-
 | Details | Site | Link |
 | --- | --- | --- |
 | Historical Content | Athboy Wikipedia | https://en.wikipedia.org/wiki/Athboy |
@@ -165,4 +163,3 @@ The developers of the Athboy community hub would like to thanks all those who co
 
 [Table of Contents](#Index)
 - - - -
-
