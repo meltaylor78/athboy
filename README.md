@@ -40,11 +40,12 @@ As Someone still unsure, I have gone through the content in the Athboy site but 
 ### <ins>Wireframes</ins>
 During the design phase of the project, with the above user stories in mind wireframes were developed to outline the layout the page would take.
 The wireframe for each page can be found at the below linksl
-
-- Index.html
-- History.html
-- Activites.html
-- Inquiry.html
+| Page | Link to Wirefram (pdf) |
+| --- | --- |
+| Index.html | https://app.box.com/s/gpi50qhpyuz7c2gmhctgbbh0674rxkua |
+| History.html | https://app.box.com/s/xvzikqtm45zbv9rq19o5a4ab5dvio09q |
+| Activites.html | https://app.box.com/s/9h9ul3n2fno3p15vkixk3o6mabeh8pfl |
+| Inquiry.html | https://app.box.com/s/d3uq5p4qnetisgx15v6fsx33c2y1l6w1 |
 
 [Table of Contents](#Index)
 - - - -
