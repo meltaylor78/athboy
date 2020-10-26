@@ -100,6 +100,13 @@ Responsiveness;
 [Table of Contents](#Index)
 - - - -
 ## <ins>Testing</ins>
+The project was developed in a DevOps type process. During the development of the website, there were  frequent deployments and ongoing testing and fixing of issues.
+Issues that were found were logged in Github and fixes were deployed on the next devlopment cycle
+
+In addtion, final tetsing was complete at the end of the project with the results in the linked manula tetsing excel file. 
+| File Name | Location |
+| --- | --- |
+| Athboy Website (MS1) Testing Checklist | https://app.box.com/s/hptfyxe9syfs8x1is1entqxzu51beunv |
 
 [Table of Contents](#Index)
 - - - -
@@ -127,10 +134,12 @@ The site is deployed on Github Pages;
 - - - -
 
 ### <ins>Acknowledgements</ins>
-| Name | Acknowledgement |
-| --- | --- |
-| Name | 123 abc |
-| Name | Show file |
+| Name | AcknowRoleledgement | Acknowledgement |
+| --- | --- | --- |
+| Caroline Taylor | Inital Idea, Content Provider, User Accptnace Tetsing | test test |
+|  | Content Provider | test test |
+|  | User Accptnace Tetsing | test test |
+| Rahul Lakhanpal | Project Mentor | Rahul provide me with the gudance to complete the project and advise on areas to better meet the project brief |
 
 [Table of Contents](#Index)
 - - - -
