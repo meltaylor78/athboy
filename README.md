@@ -56,7 +56,7 @@ The following describes the features that have been implemented into the website
 ### <ins>Existing_Features</ins>
 - Header image, nav bar & footer;
 - The site was design with common elements that span all pages of the site to replicate the user experience across all pages.
-Responsiveness;
+**Responsiveness;**
 - The nav bar was locked to the top of the page to ensure ease of navigation, this is most important on mobile as it prevents the need to scroll back to the top of the page for the links.
 - As part of the development, reactive hover elements were included on all nav links and social media links. When the user hovers over the element, the site responds.
 - In addition on the nav bar it is always clear to the user where they are and what pages are available to them. 
@@ -66,6 +66,8 @@ Responsiveness;
 - More information is being sought from others local groups related to upcoming events.
 
 - A future enhancement, would be to improve the events section to integrate a calendar view. (currently no planed timeline for this)
+
+
 [Table of Contents](#Index)
 - - - -
 ## <ins>Technologies_Used</ins>
