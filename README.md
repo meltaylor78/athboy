@@ -49,7 +49,7 @@ The wireframe for each page can be found at the below links
 | Activites.html | https://app.box.com/s/9h9ul3n2fno3p15vkixk3o6mabeh8pfl |
 | Inquiry.html | https://app.box.com/s/d3uq5p4qnetisgx15v6fsx33c2y1l6w1 |
 
-[Table of Contents](#Index)
+[Index](#Index)
 - - - -
 ## **<ins>Features</ins>**
 The following describes the features that have been implemented into the website with some notes on future enhancements.
@@ -68,7 +68,7 @@ The following describes the features that have been implemented into the website
 - A future enhancement, would be to improve the events section to integrate a calendar view. (currently no planed timeline for this)
 
 
-[Table of Contents](#Index)
+[Index](#Index)
 - - - -
 ## <ins>Technologies_Used</ins>
 **Balsamiq**    https://balsamiq.com/wireframes/
@@ -101,7 +101,7 @@ The following describes the features that have been implemented into the website
 - image used in readme file was taken from ami.responsivedesign site
 
 
-[Table of Contents](#Index)
+[Index](#Index)
 - - - -
 ## <ins>Testing</ins>
 The project was developed in a DevOps type process. During the development of the website, there were frequent deployments and ongoing testing and fixing of issues.
@@ -114,14 +114,14 @@ In addtion, final tetsing was complete at the end of the project with the result
 | --- | --- |
 | Athboy Website (MS1) Testing Checklist | https://app.box.com/s/hptfyxe9syfs8x1is1entqxzu51beunv |
 
-[Table of Contents](#Index)
+[Index](#Index)
 - - - -
 
 ## <ins>Deployment</ins>
 The site is deployed on Github Pages;
     https://meltaylor78.github.io/athboy/
 
-[Table of Contents](#Index)
+[Index](#Index)
 - - - -
 
 ## <ins>Credits</ins>
@@ -135,7 +135,7 @@ The developers of the Athboy community hub would like to thanks all those who co
 | Event Description | Puca Festival | https://www.pucafestival.com/ |
 | Event Description | Blue Jean Festival | http://bluejeanfest.com/ |
 
-[Table of Contents](#Index)
+[Index](#Index)
 - - - -
 
 ### <ins>Media</ins>
@@ -150,7 +150,7 @@ The developers of the Athboy community hub would like to thanks all those who co
 | Image | Puca Festival | https://www.pucafestival.com/ |
 | Image | Blue Jean Festival | http://bluejeanfest.com/ |
 
-[Table of Contents](#Index)
+[Index](#Index)
 - - - -
 
 ### <ins>Acknowledgements</ins>
@@ -161,5 +161,5 @@ The developers of the Athboy community hub would like to thanks all those who co
 | Caroline Taylor | User Acceptance Testing | Helped with the testing of the site during the development and final user acceptance testing |
 | Rahul Lakhanpal | Project Mentor | Rahul provide me with the guidance to complete the project and advise on areas to better meet the project brief |
 
-[Table of Contents](#Index)
+[Index](#Index)
 - - - -
