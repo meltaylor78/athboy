@@ -20,7 +20,7 @@
 
 - - - -
 ## **<ins>UX</ins>**
-The Athboy community information hub websites was conceived as a central location for information about Athboy could be hosted. Clubs & groups 
+The Athboy community information hub website was conceived as a central location where information about Athboy could be hosted. Clubs & groups 
 already have their own web and social media presence but the community hub would provide a central repository with easy to navigate pages and 
 links connecting to all the individual resources. The site is aimed at both those local to Athboy who want to find information quickly and 
 those researching Athboy as a potential destination either for a visit or to relocate to. 
@@ -28,18 +28,20 @@ those researching Athboy as a potential destination either for a visit or to rel
 ### <ins>User_Stories</ins>
 
 **As a parent;**
-- I want to find what clubs and activities there are in the local area that my children might be interested in joining.
+- I want to find out what clubs and activities there are in the local area that my children might be interested in joining.
 
 **As a resident;**
 - I would like to know more about Athboy and what events are going on in the area.
 
-**As a someone that is looking to move to Athboy;**
-- What information can I find on Athboy like the history, what does the community offer, what clubs activities are there. Where is Athboy I will need to commute to my job.
-As Someone still unsure, I have gone through the content in the Athboy site but I am unsure and have a question. 
+**As someone that is looking to move to Athboy;**
+- What information can I find on Athboy like the history, what does the community offer, what clubs activities are there. Where is Athboy? I will need to commute to my job.
+
+**As Someone still unsure;**
+- I have gone through the content in the Athboy site but I am unsure and have a question. 
 
 ### <ins>Wireframes</ins>
 During the design phase of the project, with the above user stories in mind wireframes were developed to outline the layout the page would take.
-The wireframe for each page can be found at the below linksl
+The wireframe for each page can be found at the below links
 | Page | Link to Wirefram (pdf) |
 | --- | --- |
 | Index.html | https://app.box.com/s/gpi50qhpyuz7c2gmhctgbbh0674rxkua |
@@ -53,15 +55,15 @@ The wireframe for each page can be found at the below linksl
 The following describes the features that have been implemented into the website with some notes on future enhancements.
 ### <ins>Existing_Features</ins>
 - Header image, nav bar & footer;
-- The site was design with a common elements that span all pages of the site to replicate the user experience across all pages.
+- The site was design with common elements that span all pages of the site to replicate the user experience across all pages.
 Responsiveness;
-- The nav bar was locked to the top of the page to ensure ease of navigation, this is most important on mobile to prevent the need to scroll to the top of the page for the links.
-- As part of the development reactive hover elements were included on all nav links and social media links. When the user hovers over the element, the site responds.
+- The nav bar was locked to the top of the page to ensure ease of navigation, this is most important on mobile as it prevents the need to scroll back to the top of the page for the links.
+- As part of the development, reactive hover elements were included on all nav links and social media links. When the user hovers over the element, the site responds.
 - In addition on the nav bar it is always clear to the user where they are and what pages are available to them. 
 
 ### <ins>Features_Left_to_Implement</ins>
 - In the current version of the site, there are no additional features to implement.
-- More information is being sought from others local groups & related to upcoming events.
+- More information is being sought from others local groups related to upcoming events.
 
 - A future enhancement, would be to improve the events section to integrate a calendar view. (currently no planed timeline for this)
 [Table of Contents](#Index)
@@ -100,10 +102,12 @@ Responsiveness;
 [Table of Contents](#Index)
 - - - -
 ## <ins>Testing</ins>
-The project was developed in a DevOps type process. During the development of the website, there were  frequent deployments and ongoing testing and fixing of issues.
+The project was developed in a DevOps type process. During the development of the website, there were frequent deployments and ongoing testing and fixing of issues.
 Issues that were found were logged in Github and fixes were deployed on the next devlopment cycle
 
-In addtion, final tetsing was complete at the end of the project with the results in the linked manula tetsing excel file. 
+Automated testing was complete on all html & css files in W3C code checker and for responsiveness on mi.responsivedesig.
+
+In addtion, final tetsing was complete at the end of the project with the results in the linked manual testing excel file. 
 | File Name | Location |
 | --- | --- |
 | Athboy Website (MS1) Testing Checklist | https://app.box.com/s/hptfyxe9syfs8x1is1entqxzu51beunv |
@@ -119,7 +123,7 @@ The site is deployed on Github Pages;
 - - - -
 
 ## <ins>Credits</ins>
-The developers of the Athboy community hub would like to thanks all those that contrbuted directly to the development of the site or through providing media and content for the site.
+The developers of the Athboy community hub would like to thanks all those who contrbuted directly to the development of the site or through providing media and content for the site.
 - - - -
 
 ### <ins>Content</ins>
@@ -140,13 +144,13 @@ The developers of the Athboy community hub would like to thanks all those that c
 | Historical Images | Athboy 100 | https://athboy100.com/ |
 | Images | Athboy Parish | https://www.athboyparish.ie/ |
 | Video - Rambling Around Athboy | Rambling Girl - YouTube | https://www.youtube.com/watch?v=NPB_WZzZwJs&feature=youtu.be |
-| Images | Nick Eogans Adventures - YouTube | https://www.youtube.com/watch?v=iXYbLqi1xWU&feature=youtu.be |
+| Video - Athboy Co. Meath Ireland. | Nick Eogans Adventures - YouTube | https://www.youtube.com/watch?v=iXYbLqi1xWU&feature=youtu.be |
 
 [Table of Contents](#Index)
 - - - -
 
 ### <ins>Acknowledgements</ins>
-| Name | AcknowRoleledgement | Acknowledgement |
+| Name | Acknowledgement | Acknowledgement |
 | --- | --- | --- |
 | Caroline Taylor | Initial Idea | Provide the initial idea for the project and help develop the wireframes of what would be included. |
 | Caroline Taylor | Content Provider | Provided images and content for the site |
