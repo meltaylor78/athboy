@@ -3,8 +3,9 @@
 
 ## <ins>Index<ins>
 
+- [Project Motivation](#Project_Motivation)
+- [User Stories](#User_Stories)
 - [UX](#UX) 
-    - [User Stories](#User_Stories)
     - [Wireframes](#Wireframes)
 - [Features](#Features)
     - [Existing Features](#Existing_Features)
@@ -19,11 +20,12 @@
 
 
 - - - -
-## **<ins>UX</ins>**
+## **<ins>Project_Motivation</ins>**
 The Athboy community information hub website was conceived as a central location where information about Athboy could be hosted. Clubs & groups 
 already have their own web and social media presence but the community hub would provide a central repository with easy to navigate pages and 
 links connecting to all the individual resources. The site is aimed at both those local to Athboy who want to find information quickly and 
 those researching Athboy as a potential destination either for a visit or to relocate to. 
+
 
 ### <ins>User_Stories</ins>
 
@@ -39,9 +41,10 @@ those researching Athboy as a potential destination either for a visit or to rel
 **As Someone still unsure;**
 - I have gone through the content in the Athboy site but I am unsure and have a question. 
 
+## **<ins>UX</ins>**
+
 ### <ins>Wireframes</ins>
-During the design phase of the project, with the above user stories in mind wireframes were developed to outline the layout the page would take.
-The wireframe for each page can be found at the below links
+Wireframe diagrams from the design phase of the website.
 | Page | Link to Wirefram (pdf) |
 | --- | --- |
 | Index.html | https://app.box.com/s/gpi50qhpyuz7c2gmhctgbbh0674rxkua |
