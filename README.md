@@ -213,9 +213,10 @@ The developers of the Athboy community hub would like to thanks all those who co
 | Name | Acknowledgement | Acknowledgement |
 | --- | --- | --- |
 | Caroline Taylor | Initial Idea | Provide the initial idea for the project and help develop the wireframes of what would be included. |
-| Caroline Taylor | Content Provider | Provided images and content for the site |
-| Caroline Taylor | User Acceptance Testing | Helped with the testing of the site during the development and final user acceptance testing |
-| Rahul Lakhanpal | Project Mentor | Rahul provide me with the guidance to complete the project and advise on areas to better meet the project brief |
+| Caroline Taylor | Content Provider | Provided images and content for the site. |
+| Caroline Taylor | User Acceptance Testing | Helped with the testing of the site during the development and final user acceptance testing. |
+| Rahul Lakhanpal | Project Mentor | Rahul provided me with the guidance to complete the project and advise on areas to better meet the project brief. |
+| Athboy Community | Content | The sports clubs, activity groups for all the content and information to include on the site. |
 
 [Index](#Index)
 - - - -
