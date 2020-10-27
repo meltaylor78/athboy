@@ -6,6 +6,7 @@ s
 - [Project Motivation](#Project_Motivation)
 - [User Stories](#User_Stories)
 - [UX](#UX) 
+    - [User Stories](#User_Stories)
     - [Wireframes](#Wireframes)
 - [Features](#Features)
     - [Existing Features](#Existing_Features)
@@ -26,17 +27,17 @@ links connecting to all the individual resources. The site is aimed at both thos
 those researching Athboy as a potential destination either for a visit or to relocate to. 
 
 ## **<ins>UX</ins>**
-After the initial project idea was developed we moved into the UX design phased based on the user stories (detailed below) that were developed 
+After the initial project idea was developed we moved into the UX design phased based on the [User Stories](#User_Stories) that were developed 
 as part of the initial project idea. The scope of the site was set to, four pages, covering;
- - Home Page (index.html)
- - History Page (history.html)
- - Activities & Events (activities.html)
- - An Inquiry form (inquiry.html)
+  - Home Page (index.html)
+  - History Page (history.html)
+  - Activities & Events (activities.html)
+  - An Inquiry form (inquiry.html)
 
 The website would be built using Bootstrap to provide the responsiveness required to ensure it was compatible with all device sizes. Bootstrap allowed the site to 
 move the tiles in a vertical manner for mobile devices and display side by side for larger devices. Bootstrap was used as the base framework with custom CSS to give 
 the site a more unique and individual look and feel. A common header & footer across all the pages for continuity through the pages was decided. Before development started, 
-a wireframe was drawn up for each page to guide the development and ensure there was no scope creep from the original concept and ensure the project timeline was met.  
+a [Wireframes](#Wireframes) was drawn up for each page to guide the development and ensure there was no scope creep from the original concept and ensure the project timeline was met. 
 
 **Header:**
 
