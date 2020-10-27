@@ -41,7 +41,7 @@ a [Wireframes](#Wireframes) was drawn up for each page to guide the development 
 
 ### **Header.**
 
-The header element was to consist of a nav bar and a hero image. It was decided that the nav bar would be locked to the top of the screen and the heor images was chosen as 
+The header element was to consist of a nav bar and a hero image. It was decided that the nav bar would be locked to the top of the screen and the hero images was chosen as 
 an aerial view of the village. The image made for an inviting image that encourage the user to look deeper into the site. 
 
 ### **Footer.**
@@ -117,7 +117,7 @@ The following describes the features that have been implemented into the website
  - Image carosule with auto play, that includes user controls to allow the user select the images and move at their own pace.
 
 ### <ins>Future_Enhancements</ins>
-There were some features that would enhance the over all website, that did not make the iteration of the site but could be included in future versions.
+There were some features that would enhance the overall website, that did not make the iteration of the site but could be included in future versions.
  - On the carousel of images, and information tag that when clicked would provide info and context for the image. 
  - Interview from residence that could provide more information on the recent history & events of Athboy, in video or audio contributions. 
 
@@ -132,7 +132,7 @@ There were some features that would enhance the over all website, that did not m
 - Github pages was used for the deployment of the site.
 
 **Gitpod** https://www.gitpod.io/
-- Gitpod was the IDE used for the developemnt through out the project.
+- Gitpod was the IDE used for the development throughout the project.
 
 **Bootstrap** https://getbootstrap.com/
 - Bootstrap library was chosen for the initial layout & to provide responsiveness across devices sizes, layout was customised on top of bootstrap.
@@ -144,7 +144,7 @@ There were some features that would enhance the over all website, that did not m
 - Icons used through the web site are sourced from Font Awesome
 
 **W3C Validation Service** https://validator.w3.org/
-- HTML & CSS code was cheked on W3C validator at the end of the project.
+- HTML & CSS code was checked on W3C validator at the end of the project.
 
 **HTML Formatter** https://webformatter.com/html
 - HTML code was run through HTML formatter to fix any indentation issues.
@@ -157,12 +157,10 @@ There were some features that would enhance the over all website, that did not m
 [Index](#Index)
 - - - -
 ## <ins>Testing</ins>
-The project was developed in a DevOps type process. During the development of the website, there were frequent deployments and ongoing testing and fixing of issues.
-Issues that were found were logged in Github and fixes were deployed on the next devlopment cycle
+The project was developed in a DevOps type process. During the development of the website, there were frequent deployments and ongoing testing and fixing of issues. Issues that were found were logged in Github and fixes were deployed on the next development cycle
+Automated testing was complete on all html & CSS files in W3C code checker and for responsiveness on mi.responsivedesig.
 
-Automated testing was complete on all html & css files in W3C code checker and for responsiveness on mi.responsivedesig.
-
-In addtion, final tetsing was complete at the end of the project with the results in the linked manual testing excel file. 
+In addition, final testing was complete at the end of the project with the results in the linked manual testing excel file. 
 | File Name | Location |
 | --- | --- |
 | Athboy Website (MS1) Testing Checklist | https://app.box.com/s/hptfyxe9syfs8x1is1entqxzu51beunv |
@@ -181,7 +179,7 @@ Live deployment @ https://meltaylor78.github.io/athboy/
 - - - -
 
 ## <ins>Credits</ins>
-The developers of the Athboy community hub would like to thanks all those who contrbuted directly to the development of the site or through providing media and content for the site.
+The developers of the Athboy community hub would like to thanks all those who contributed directly to the development of the site or through providing media and content for the site.
 - - - -
 
 | Details | Site | Link |
