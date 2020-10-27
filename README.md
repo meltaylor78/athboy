@@ -36,8 +36,7 @@ as part of the initial project idea. The scope of the site was set to, four page
 The website would be built using Bootstrap to provide the responsiveness required to ensure it was compatible with all device sizes. Bootstrap allowed the site to 
 move the tiles in a vertical manner for mobile devices and display side by side for larger devices. Bootstrap was used as the base framework with custom CSS to give 
 the site a more unique and individual look and feel. A common header & footer across all the pages for continuity through the pages was decided. Before development started, 
-a wireframe was drawn up for each page to guide the development and ensure there was no scope creep from the original concept and ensure the project timeline was met. The created [Wireframes](#Wireframes)
-are included below. 
+a wireframe was drawn up for each page to guide the development and ensure there was no scope creep from the original concept and ensure the project timeline was met.  
 
 **Header:**
 
