@@ -18,7 +18,6 @@
     - [Media](#Media)
     - [Acknowledgements](#Acknowledgements)
 
-
 - - - -
 ## **<ins>Project_Motivation</ins>**
 The Athboy community information hub website was conceived as a central location where information about Athboy could be hosted. Clubs & groups 
@@ -26,6 +25,53 @@ already have their own web and social media presence but the community hub would
 links connecting to all the individual resources. The site is aimed at both those local to Athboy who want to find information quickly and 
 those researching Athboy as a potential destination either for a visit or to relocate to. 
 
+## **<ins>UX</ins>**
+After the initial project idea was developed we moved into the UX design phased based on the user stories (detailed below) that were developed 
+as part of the initial project idea. The scope of the site was set to, four pages, covering;
+ - Home Page (index.html)
+ - History Page (history.html)
+ - Activities & Events (activities.html)
+ - An Inquiry form (inquiry.html)
+
+The website would be built using Bootstrap to provide the responsiveness required to ensure it was compatible with all device sizes. Bootstrap allowed the site to 
+move the tiles in a vertical manner for mobile devices and display side by side for larger devices. Bootstrap was used as the base framework with custom CSS to give 
+the site a more unique and individual look and feel. A common header & footer across all the pages for continuity through the pages was decided. Before development started, 
+a wireframe was drawn up for each page to guide the development and ensure there was no scope creep from the original concept and ensure the project timeline was met. 
+
+**Header:**
+The header element was to consist of a nav bar and a hero image. It was decided that the nav bar would be locked to the top of the screen and the heor images was chosen as 
+an aerial view of the village. The image made for an inviting image that encourage the user to look deeper into the site. 
+
+**Footer:**
+The footer contains site name details and social media links to accounts associated with the village. 
+
+For the boy of each page, we looked at gathering some of the critical information that would make the site useful to users and include images & videos and information that 
+would make the page interesting to both users familiar with Athboy and users who knew nothing about the area. 
+
+**Home Page.**
+On the home pages, we included an opening paragraph to introduce the site followed by an introduction to Athboy, which was accompanied with an image to provide visual appeal 
+and break up the text. For both the opening paragraph and intro paragraph, it was decided to not show all the text on mobile screens to prevent there been an over load of text 
+on a small scree. The next section we added two videos showing the village and surrounding areas. Videos were not set to auto play to allow the user decide if they wanted to 
+view them or move on. The last section on the home page was to include a iframe with google maps, to keep users on our sight and not need to leave to find out where Athboy was, 
+the map is an important element to provide the user with what they want / need on our site. 
+
+**History.**
+The reason for developing the history page was to give the user some additional information and background on Athboy. There were two elements added to this page, the first was 
+a timeline showing some key historical events, we did not want to turn the site into an encyclopaedia on Athboy so we only included a short description of each. The second element 
+on this page was a carousel of images, the images are layout in such a way that the user gets a picture with an older image of Athboy and them a corresponding newer image that shows 
+where things have changed and in some case where they have not changed. 
+
+**Activities.**
+This page was going to be the main information page, providing information on sports clubs, groups and events in the area. A short into paragraph was added at the top followed 
+by boxes that would each contain a club or group. As the clubs and groups already had their own social media presence, only information linking to their pages was included with 
+contact e-mail and phone numbers. The idea with not providing more information was to ensure the user always linked to the lates info. For each club and image of their logo was 
+included to give visual impact to the page and not just have a table of content. 
+Under this, a section was created to list social events and festivals in the area. Again using an image for visual impact, dates were provided with a shot description and a link to 
+the main site for the event.
+
+**inquiry.**
+Finally the site also includes a form that the users can submit questions or comments. A basic form collecting contact information so the questions /comment can be responded to. 
+Also included was a set of radio buttons that allow the user indicate the area the questions / comment is related to, this would help direct the question once it is received. 
 
 ### <ins>User_Stories</ins>
 
@@ -40,8 +86,6 @@ those researching Athboy as a potential destination either for a visit or to rel
 
 **As Someone still unsure;**
 - I have gone through the content in the Athboy site but I am unsure and have a question. 
-
-## **<ins>UX</ins>**
 
 ### <ins>Wireframes</ins>
 Wireframe diagrams from the design phase of the website.
