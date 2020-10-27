@@ -171,10 +171,10 @@ In addtion, final tetsing was complete at the end of the project with the result
 - - - -
 
 ## <ins>Deployment</ins>
-The site is deployed on Githu pages, as develpment was done via Gitpod and version control was done via Github, it was decided to deploy on Github pages. There were a 
-number of advantages for deploying in this way, it allowed for auick deployment of updates and fixes as the site was regulary deployed for QA and multi-device testing. 
-Github pages provided an easy deploymenty, by activating Github pages in the settins for the repositories.
-    
+The site is deployed on GitHub pages, as development was done via Gitpod and version control was done via Github, it was decided to deploy on Github pages. There were a 
+number of advantages for deploying in this way, it allowed for quick deployment of updates and fixes as the site was regularly deployed for QA and multi-device testing. 
+Github pages provided an easy deployment, by activating Github pages in the setting for the repositories.
+
 Live deployment @ https://meltaylor78.github.io/athboy/
 
 [Index](#Index)
