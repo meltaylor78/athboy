@@ -4,7 +4,6 @@
 ## <ins>Index<ins>
 
 - [Project Motivation](#Project_Motivation)
-- [User Stories](#User_Stories)
 - [UX](#UX) 
     - [User Stories](#User_Stories)
     - [Wireframes](#Wireframes)
