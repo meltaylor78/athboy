@@ -10,7 +10,7 @@
     - [Wireframes](#Wireframes)
 - [Features](#Features)
     - [Existing Features](#Existing_Features)
-    - [Features Left to Implement](#Features_Left_to_Implement)
+    - [Future Enhancements](#Future_Enhancements)
 - [Technologies Used](#Technologies_Used)
 - [Testing](#Testing)
 - [Deployment](#Deployment)
@@ -75,7 +75,7 @@ included to give visual impact to the page and not just have a table of content.
 Under this, a section was created to list social events and festivals in the area. Again using an image for visual impact, dates were provided with a shot description and a link to 
 the main site for the event.
 
-### **inquiry.**
+### **Inquiry.**
 
 Finally the site also includes a form that the users can submit questions or comments. A basic form collecting contact information so the questions /comment can be responded to. 
 Also included was a set of radio buttons that allow the user indicate the area the questions / comment is related to, this would help direct the question once it is received. 
@@ -111,16 +111,15 @@ The following describes the features that have been implemented into the website
 - Header image, nav bar & footer;
 - The site was design with common elements that span all pages of the site to replicate the user experience across all pages.
 **Responsiveness;**
-- The nav bar was locked to the top of the page to ensure ease of navigation, this is most important on mobile as it prevents the need to scroll back to the top of the page for the links.
-- As part of the development, reactive hover elements were included on all nav links and social media links. When the user hovers over the element, the site responds.
-- In addition on the nav bar it is always clear to the user where they are and what pages are available to them. 
+ - The nav bar was locked to the top of the page to ensure ease of navigation, this is most important on mobile as it prevents the need to scroll back to the top of the page for the links.
+ - As part of the development, reactive hover elements were included on all nav links and social media links. When the user hovers over the element, the site responds.
+ - In addition on the nav bar it is always clear to the user where they are and what pages are available to them.
+ - Image carosule with auto play, that includes user controls to allow the user select the images and move at their own pace.
 
-### <ins>Features_Left_to_Implement</ins>
-- In the current version of the site, there are no additional features to implement.
-- More information is being sought from others local groups related to upcoming events.
-
-- A future enhancement, would be to improve the events section to integrate a calendar view. (currently no planed timeline for this)
-
+### <ins>Future_Enhancements</ins>
+There were some features that would enhance the over all website, that did not make the iteration of the site but could be included in future versions.
+ - On the carousel of images, and information tag that when clicked would provide info and context for the image. 
+ - Interview from residence that could provide more information on the recent history & events of Athboy, in video or audio contributions. 
 
 [Index](#Index)
 - - - -
@@ -172,8 +171,11 @@ In addtion, final tetsing was complete at the end of the project with the result
 - - - -
 
 ## <ins>Deployment</ins>
-The site is deployed on Github Pages;
-    https://meltaylor78.github.io/athboy/
+The site is deployed on Githu pages, as develpment was done via Gitpod and version control was done via Github, it was decided to deploy on Github pages. There were a 
+number of advantages for deploying in this way, it allowed for auick deployment of updates and fixes as the site was regulary deployed for QA and multi-device testing. 
+Github pages provided an easy deploymenty, by activating Github pages in the settins for the repositories.
+    
+Live deployment @ https://meltaylor78.github.io/athboy/
 
 [Index](#Index)
 - - - -
